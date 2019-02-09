@@ -13,6 +13,10 @@
     li{
         width: (100% / 6);
         float: left;
+
+        @include mQ(600px){
+            width: 100%;
+        }
     }
 
     a{
