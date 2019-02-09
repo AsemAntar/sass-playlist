@@ -41,7 +41,7 @@ li {
   clear: both;
 }
 #main-nav li {
-  width: 14%;
+  width: 16.6666666667%;
   float: left;
 }
 #main-nav a {
@@ -113,6 +113,34 @@ section h1 {
   font-size: 20px;
   max-width: 500px;
   margin: 60px 0;
+}
+
+#services {
+  margin-bottom: 60px;
+}
+#services ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#services li {
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  width: 33.3333333333%;
+}
+#services img {
+  width: 60%;
+  margin: 20px 20%;
+}
+#services a {
+  text-decoration: none;
+  color: #032f3e;
+  font-weight: bold;
+}
+#services a:hover {
+  color: red;
 }
 
 
